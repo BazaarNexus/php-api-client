@@ -1,0 +1,25 @@
+{
+    "name": "bazaarnexus/php-api-client",
+    "description": "PHP Client Library for BazaarNexus API",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "BazaarNexus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BazaarNexus",
+            "email": "github@bazaarnexus.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
